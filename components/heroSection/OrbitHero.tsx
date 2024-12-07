@@ -29,8 +29,14 @@ export const OrbitHero: React.FC = () => {
       />
       <div className="pt-10">
         <Button
-          text="Continue"
-          onClick={handleContinue}
+          text="Find out more"
+          onClick={() => {
+            handleContinue();
+            const calculatorSection = document.getElementById('solution');
+            if (calculatorSection) {
+              calculatorSection.scrollIntoView({ behavior: 'smooth' });
+            }
+          }}
           ariaLabel="Continue to explore OrbitCycle"
         />
       </div>

@@ -3,10 +3,10 @@ import { Navigation } from "./Navigation";
 
 export const Header: React.FC = () => {
   const navigationItems = [
-    { label: "Home" },
-    { label: "Our Solution" },
-    { label: "Calculator", className: "px-1.5 basis-5" },
-    { label: "About Us" },
+    { label: "Home", target: "hero" },
+    { label: "Our Solution", target: "solution" },
+    { label: "Calculator", target: "calculator" },
+    { label: "About Us", target: "about-us" },
   ];
 
   return (

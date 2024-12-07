@@ -5,6 +5,7 @@ interface NavigationProps {
   items: Array<{
     label: string;
     className?: string;
+    target?: string; // Added target prop
   }>;
 }
 
@@ -16,6 +17,7 @@ export const Navigation: React.FC<NavigationProps> = ({ items }) => {
           key={index}
           label={item.label}
           className={item.className}
+          target={item.target} // Added target prop
         />
       ))}
     </div>
