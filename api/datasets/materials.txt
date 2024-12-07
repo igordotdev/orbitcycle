@@ -1,13 +1,15 @@
 Aluminum
-Titanium
-Steel
+Glass
+Ceramics
 Gold
 Silver
-Teflon
-Glass
-Insulation
 Kevlar
-Nickel
 Composite Materials
-Ceramics
+Steel
+Nickel
+Teflon
+Titanium
 Carbon-Fiber
+Insulation
+Silicon
+Copper

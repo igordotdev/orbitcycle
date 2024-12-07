@@ -5,18 +5,18 @@
 		"materials": [
 		  {
 			"name": "Aluminum Alloys",
-			"percentage": "40-50%",
-			"mass_kg": "800-1,000"
+			"percentage": 45,
+			"mass_kg": 900
 		  },
 		  {
 			"name": "Carbon-Fiber Reinforced Polymers (CFRPs)",
-			"percentage": "15-25%",
-			"mass_kg": "300-500"
+			"percentage": 20,
+			"mass_kg": 400
 		  },
 		  {
 			"name": "Titanium Alloys",
-			"percentage": "10-15%",
-			"mass_kg": "200-300"
+			"percentage": 15,
+			"mass_kg": 250
 		  }
 		]
 	  },
@@ -25,18 +25,18 @@
 		"materials": [
 		  {
 			"name": "Stainless Steel",
-			"percentage": "40-50%",
-			"mass_kg": "400-500"
+			"percentage": 45,
+			"mass_kg": 450
 		  },
 		  {
 			"name": "Nickel Alloys (Inconel, Monel)",
-			"percentage": "25-35%",
-			"mass_kg": "250-350"
+			"percentage": 30,
+			"mass_kg": 300
 		  },
 		  {
 			"name": "Ceramics",
-			"percentage": "5-10%",
-			"mass_kg": "50-100"
+			"percentage": 8,
+			"mass_kg": 80
 		  }
 		]
 	  },
@@ -45,18 +45,18 @@
 		"materials": [
 		  {
 			"name": "Multi-Layer Insulation (MLI)",
-			"percentage": "30-40%",
-			"mass_kg": "60-80"
+			"percentage": 35,
+			"mass_kg": 70
 		  },
 		  {
 			"name": "Ceramic Coatings",
-			"percentage": "20-30%",
-			"mass_kg": "40-60"
+			"percentage": 25,
+			"mass_kg": 50
 		  },
 		  {
 			"name": "Silicone",
-			"percentage": "10-15%",
-			"mass_kg": "20-30"
+			"percentage": 13,
+			"mass_kg": 27
 		  }
 		]
 	  },
@@ -65,18 +65,18 @@
 		"materials": [
 		  {
 			"name": "Solar Panels (Silicon)",
-			"percentage": "50-60%",
-			"mass_kg": "100-120"
+			"percentage": 55,
+			"mass_kg": 110
 		  },
 		  {
 			"name": "Aluminum Frames",
-			"percentage": "30-40%",
-			"mass_kg": "60-80"
+			"percentage": 35,
+			"mass_kg": 70
 		  },
 		  {
 			"name": "Glass Coatings",
-			"percentage": "10-15%",
-			"mass_kg": "20-30"
+			"percentage": 13,
+			"mass_kg": 25
 		  }
 		]
 	  },
@@ -85,18 +85,18 @@
 		"materials": [
 		  {
 			"name": "Quartz Glass",
-			"percentage": "20-30%",
-			"mass_kg": "40-60"
+			"percentage": 25,
+			"mass_kg": 50
 		  },
 		  {
 			"name": "Titanium Alloys",
-			"percentage": "20-30%",
-			"mass_kg": "40-60"
+			"percentage": 25,
+			"mass_kg": 50
 		  },
 		  {
 			"name": "Aluminum Alloys",
-			"percentage": "30-40%",
-			"mass_kg": "60-80"
+			"percentage": 35,
+			"mass_kg": 70
 		  }
 		]
 	  },
@@ -105,20 +105,20 @@
 		"materials": [
 		  {
 			"name": "Gold and Silver (Wiring)",
-			"percentage": "10-15%",
-			"mass_kg": "20-30"
+			"percentage": 12.5,
+			"mass_kg": 25
 		  },
 		  {
 			"name": "Silicon and Ceramics (Chips)",
-			"percentage": "25-35%",
-			"mass_kg": "50-70"
+			"percentage": 30,
+			"mass_kg": 60
 		  },
 		  {
 			"name": "Aluminum Alloys",
-			"percentage": "30-40%",
-			"mass_kg": "60-80"
+			"percentage": 35,
+			"mass_kg": 70
 		  }
 		]
 	  }
 	]
-  }
+}

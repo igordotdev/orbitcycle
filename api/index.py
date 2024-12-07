@@ -11,6 +11,7 @@ HUMAN_GENERATED = None
 MATERAILS_NAME = None
 MATERAILS = None
 TYPICAL_USAGE = None
+PRICE = None
 
 
 
@@ -19,6 +20,16 @@ def load_materials():
 		data = f.read().split('\n')
 		for i in range(len(data)):
 			data[i] = data[i].strip()
+			if (data[i] == ''):
+				data.pop(i)
+		return data
+
+
+def load_price():
+	with open('datasets/materials.txt') as f:
+		data = f.read().split('\n')
+		for i in range(len(data)):
+			data[i] = data[i].split('\t')
 			if (data[i] == ''):
 				data.pop(i)
 		return data
@@ -92,13 +103,13 @@ def fill_material_weight_data():
 	return materials
 
 
-
 @app.route('/materials', methods=['GET'])
 def get_materials():
 	return jsonify(MATERAILS_NAME)
 
 @app.route('/materials/<material>', methods=['GET'])
 def get_material(material):
+	# ret = {MATERAILS[material.lower()]: None}
 	return jsonify(MATERAILS[material.lower()])
 
 
@@ -125,6 +136,7 @@ if __name__ == '__main__':
 	HUMAN_GENERATED = load_materials_json('human_generated')['materials']
 	print(Color.yellow(f"HUMAN GENERATED LEN: {len(HUMAN_GENERATED)}"), end='\n\n')
 
+
 	MATERAILS = fill_material_weight_data()
 	for material in MATERAILS:
 		print(Color.magenta(material))
@@ -132,13 +144,4 @@ if __name__ == '__main__':
 			print(Color.cyan(f"{part}: {MATERAILS[material][part]}"))
 		print()
 
-	# while True:
-	# 	product = input("Enter product or material: ")
-	# 	for use_case in TYPICAL_USAGE:
-	# 		if use_case['name'] == product:
-	# 			for material in use_case['materials']:
-	# 				print(Color.magenta(material))
-	# 				find_material_usage(material)
-	# 				print()
-
-	app.run(debug=True)
+	app.run(debug=False)

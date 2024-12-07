@@ -156,6 +156,36 @@
 		  "Steel": 20.0,
 		  "Nickel": 5.0
 		}
+	  },
+	  {
+		"name": "Semiconductor Manufacturing",
+		"materials": {
+		  "Silicon": 50.0,
+		  "Copper": 5.0
+		}
+	  },
+	  {
+		"name": "Electrical Wiring",
+		"materials": {
+		  "Copper": 20.0,
+		  "Insulation": 5.0
+		}
+	  },
+	  {
+		"name": "Solar Panels",
+		"materials": {
+		  "Silicon": 100.0,
+		  "Aluminum": 50.0,
+		  "Glass": 30.0
+		}
+	  },
+	  {
+		"name": "Printed Circuit Boards",
+		"materials": {
+		  "Copper": 0.02,
+		  "Composite Materials": 0.01,
+		  "Silicon": 0.005
+		}
 	  }
 	]
   }

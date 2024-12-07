@@ -5,23 +5,23 @@
 		"materials": [
 		  {
 			"name": "Aluminum Alloys",
-			"percentage": "50-60%",
-			"mass_kg": "5,000-6,000"
+			"percentage": 55,
+			"mass_kg": 5500
 		  },
 		  {
 			"name": "Carbon-Fiber Reinforced Polymers (CFRPs)",
-			"percentage": "10-20%",
-			"mass_kg": "1,000-2,000"
+			"percentage": 15,
+			"mass_kg": 1500
 		  },
 		  {
 			"name": "Titanium Alloys",
-			"percentage": "10-15%",
-			"mass_kg": "1,000-1,500"
+			"percentage": 12.5,
+			"mass_kg": 1250
 		  },
 		  {
 			"name": "Gold and Silver (Wiring)",
-			"percentage": "2-5%",
-			"mass_kg": "200-500"
+			"percentage": 3.5,
+			"mass_kg": 350
 		  }
 		]
 	  },
@@ -30,23 +30,23 @@
 		"materials": [
 		  {
 			"name": "Stainless Steel",
-			"percentage": "40-50%",
-			"mass_kg": "4,000-5,000"
+			"percentage": 45,
+			"mass_kg": 4500
 		  },
 		  {
 			"name": "Aluminum Alloys",
-			"percentage": "30-40%",
-			"mass_kg": "3,000-4,000"
+			"percentage": 35,
+			"mass_kg": 3500
 		  },
 		  {
 			"name": "Nickel Alloys (Inconel, Monel)",
-			"percentage": "10-15%",
-			"mass_kg": "1,000-1,500"
+			"percentage": 12.5,
+			"mass_kg": 1250
 		  },
 		  {
 			"name": "Composite Materials",
-			"percentage": "5-10%",
-			"mass_kg": "500-1,000"
+			"percentage": 7.5,
+			"mass_kg": 750
 		  }
 		]
 	  },
@@ -55,23 +55,23 @@
 		"materials": [
 		  {
 			"name": "Titanium Alloys",
-			"percentage": "30-40%",
-			"mass_kg": "300-400"
+			"percentage": 35,
+			"mass_kg": 350
 		  },
 		  {
 			"name": "Stainless Steel",
-			"percentage": "30-40%",
-			"mass_kg": "300-400"
+			"percentage": 35,
+			"mass_kg": 350
 		  },
 		  {
 			"name": "Gold Plating",
-			"percentage": "5-10%",
-			"mass_kg": "50-100"
+			"percentage": 7.5,
+			"mass_kg": 75
 		  },
 		  {
 			"name": "Ceramics",
-			"percentage": "5-10%",
-			"mass_kg": "50-100"
+			"percentage": 7.5,
+			"mass_kg": 75
 		  }
 		]
 	  },
@@ -80,8 +80,8 @@
 		"materials": [
 		  {
 			"name": "Epoxy-Based Paints",
-			"percentage": "100%",
-			"mass_kg": "10-50"
+			"percentage": 100,
+			"mass_kg": 30
 		  }
 		]
 	  },
@@ -90,20 +90,20 @@
 		"materials": [
 		  {
 			"name": "Multi-Layer Insulation (MLI)",
-			"percentage": "50-70%",
-			"mass_kg": "500-700"
+			"percentage": 60,
+			"mass_kg": 600
 		  },
 		  {
 			"name": "Teflon (PTFE)",
-			"percentage": "20-30%",
-			"mass_kg": "200-300"
+			"percentage": 25,
+			"mass_kg": 250
 		  },
 		  {
 			"name": "Kevlar",
-			"percentage": "5-10%",
-			"mass_kg": "50-100"
+			"percentage": 7.5,
+			"mass_kg": 75
 		  }
 		]
 	  }
 	]
-  }
+}
