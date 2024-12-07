@@ -22,7 +22,7 @@ export const SpaceDebrisStats: React.FC = () => {
 
   return (
     <div className="flex overflow-hidden flex-col items-center px-2.5 text-white">
-      <div className="flex overflow-hidden flex-wrap gap-5 justify-between items-center self-stretch px-80 py-6 w-full text-center max-md:px-5 max-md:max-w-full">
+      <div className="flex overflow-hidden flex-wrap gap-5 justify-between items-center self-stretch px-8 py-6 w-full text-center max-md:px-5 max-md:max-w-full">
         {statisticsData.map((stat, index) => (
           <StatisticCard
             key={index}

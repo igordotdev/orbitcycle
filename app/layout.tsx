@@ -9,7 +9,7 @@ const dm_sans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Orbit Cycle",
+  title: "OrbitCycle",
   description: "Cleaning our orbit has never been easier.",
 };
 
