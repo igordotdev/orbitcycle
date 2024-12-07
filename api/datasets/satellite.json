@@ -1,0 +1,69 @@
+{
+  "materials": [
+    {
+      "name": "Aluminum Alloys",
+      "percentage": "50-60%",
+      "mass_kg": "500-600"
+    },
+    {
+      "name": "Carbon-Fiber Reinforced Polymers (CFRPs)",
+      "percentage": "10-20%",
+      "mass_kg": "100-200"
+    },
+    {
+      "name": "Titanium Alloys",
+      "percentage": "10-15%",
+      "mass_kg": "100-150"
+    },
+    {
+      "name": "Stainless Steel",
+      "percentage": "5-10%",
+      "mass_kg": "50-100"
+    },
+    {
+      "name": "Gold and Silver",
+      "percentage": "2-5%",
+      "mass_kg": "20-50"
+    },
+    {
+      "name": "Teflon (PTFE)",
+      "percentage": "1-3%",
+      "mass_kg": "10-30"
+    },
+    {
+      "name": "Quartz Glass",
+      "percentage": "1-2%",
+      "mass_kg": "10-20"
+    },
+    {
+      "name": "Fused Silica",
+      "percentage": "1-2%",
+      "mass_kg": "10-20"
+    },
+    {
+      "name": "Multi-Layer Insulation (MLI)",
+      "percentage": "5-8%",
+      "mass_kg": "50-80"
+    },
+    {
+      "name": "Kevlar",
+      "percentage": "1-3%",
+      "mass_kg": "10-30"
+    },
+    {
+      "name": "Ceramic Coatings",
+      "percentage": "<1%",
+      "mass_kg": "<10"
+    },
+    {
+      "name": "Silicone",
+      "percentage": "1-2%",
+      "mass_kg": "10-20"
+    },
+    {
+      "name": "Monel and Inconel",
+      "percentage": "<1%",
+      "mass_kg": "<10"
+    }
+  ]
+}

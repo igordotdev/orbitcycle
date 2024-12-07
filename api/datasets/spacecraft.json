@@ -1,0 +1,124 @@
+{
+	"materials": [
+	  {
+		"component": "Spacecraft Structure",
+		"materials": [
+		  {
+			"name": "Aluminum Alloys",
+			"percentage": "40-50%",
+			"mass_kg": "800-1,000"
+		  },
+		  {
+			"name": "Carbon-Fiber Reinforced Polymers (CFRPs)",
+			"percentage": "15-25%",
+			"mass_kg": "300-500"
+		  },
+		  {
+			"name": "Titanium Alloys",
+			"percentage": "10-15%",
+			"mass_kg": "200-300"
+		  }
+		]
+	  },
+	  {
+		"component": "Propulsion System",
+		"materials": [
+		  {
+			"name": "Stainless Steel",
+			"percentage": "40-50%",
+			"mass_kg": "400-500"
+		  },
+		  {
+			"name": "Nickel Alloys (Inconel, Monel)",
+			"percentage": "25-35%",
+			"mass_kg": "250-350"
+		  },
+		  {
+			"name": "Ceramics",
+			"percentage": "5-10%",
+			"mass_kg": "50-100"
+		  }
+		]
+	  },
+	  {
+		"component": "Thermal Control System",
+		"materials": [
+		  {
+			"name": "Multi-Layer Insulation (MLI)",
+			"percentage": "30-40%",
+			"mass_kg": "60-80"
+		  },
+		  {
+			"name": "Ceramic Coatings",
+			"percentage": "20-30%",
+			"mass_kg": "40-60"
+		  },
+		  {
+			"name": "Silicone",
+			"percentage": "10-15%",
+			"mass_kg": "20-30"
+		  }
+		]
+	  },
+	  {
+		"component": "Power Systems",
+		"materials": [
+		  {
+			"name": "Solar Panels (Silicon)",
+			"percentage": "50-60%",
+			"mass_kg": "100-120"
+		  },
+		  {
+			"name": "Aluminum Frames",
+			"percentage": "30-40%",
+			"mass_kg": "60-80"
+		  },
+		  {
+			"name": "Glass Coatings",
+			"percentage": "10-15%",
+			"mass_kg": "20-30"
+		  }
+		]
+	  },
+	  {
+		"component": "Payload Instruments",
+		"materials": [
+		  {
+			"name": "Quartz Glass",
+			"percentage": "20-30%",
+			"mass_kg": "40-60"
+		  },
+		  {
+			"name": "Titanium Alloys",
+			"percentage": "20-30%",
+			"mass_kg": "40-60"
+		  },
+		  {
+			"name": "Aluminum Alloys",
+			"percentage": "30-40%",
+			"mass_kg": "60-80"
+		  }
+		]
+	  },
+	  {
+		"component": "Avionics",
+		"materials": [
+		  {
+			"name": "Gold and Silver (Wiring)",
+			"percentage": "10-15%",
+			"mass_kg": "20-30"
+		  },
+		  {
+			"name": "Silicon and Ceramics (Chips)",
+			"percentage": "25-35%",
+			"mass_kg": "50-70"
+		  },
+		  {
+			"name": "Aluminum Alloys",
+			"percentage": "30-40%",
+			"mass_kg": "60-80"
+		  }
+		]
+	  }
+	]
+  }

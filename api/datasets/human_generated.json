@@ -1,0 +1,109 @@
+{
+	"materials": [
+	  {
+		"object": "Defunct Satellites",
+		"materials": [
+		  {
+			"name": "Aluminum Alloys",
+			"percentage": "50-60%",
+			"mass_kg": "5,000-6,000"
+		  },
+		  {
+			"name": "Carbon-Fiber Reinforced Polymers (CFRPs)",
+			"percentage": "10-20%",
+			"mass_kg": "1,000-2,000"
+		  },
+		  {
+			"name": "Titanium Alloys",
+			"percentage": "10-15%",
+			"mass_kg": "1,000-1,500"
+		  },
+		  {
+			"name": "Gold and Silver (Wiring)",
+			"percentage": "2-5%",
+			"mass_kg": "200-500"
+		  }
+		]
+	  },
+	  {
+		"object": "Rocket Stages",
+		"materials": [
+		  {
+			"name": "Stainless Steel",
+			"percentage": "40-50%",
+			"mass_kg": "4,000-5,000"
+		  },
+		  {
+			"name": "Aluminum Alloys",
+			"percentage": "30-40%",
+			"mass_kg": "3,000-4,000"
+		  },
+		  {
+			"name": "Nickel Alloys (Inconel, Monel)",
+			"percentage": "10-15%",
+			"mass_kg": "1,000-1,500"
+		  },
+		  {
+			"name": "Composite Materials",
+			"percentage": "5-10%",
+			"mass_kg": "500-1,000"
+		  }
+		]
+	  },
+	  {
+		"object": "Small Tools or Fragments",
+		"materials": [
+		  {
+			"name": "Titanium Alloys",
+			"percentage": "30-40%",
+			"mass_kg": "300-400"
+		  },
+		  {
+			"name": "Stainless Steel",
+			"percentage": "30-40%",
+			"mass_kg": "300-400"
+		  },
+		  {
+			"name": "Gold Plating",
+			"percentage": "5-10%",
+			"mass_kg": "50-100"
+		  },
+		  {
+			"name": "Ceramics",
+			"percentage": "5-10%",
+			"mass_kg": "50-100"
+		  }
+		]
+	  },
+	  {
+		"object": "Paint Flakes",
+		"materials": [
+		  {
+			"name": "Epoxy-Based Paints",
+			"percentage": "100%",
+			"mass_kg": "10-50"
+		  }
+		]
+	  },
+	  {
+		"object": "Thermal Blankets or Insulation",
+		"materials": [
+		  {
+			"name": "Multi-Layer Insulation (MLI)",
+			"percentage": "50-70%",
+			"mass_kg": "500-700"
+		  },
+		  {
+			"name": "Teflon (PTFE)",
+			"percentage": "20-30%",
+			"mass_kg": "200-300"
+		  },
+		  {
+			"name": "Kevlar",
+			"percentage": "5-10%",
+			"mass_kg": "50-100"
+		  }
+		]
+	  }
+	]
+  }

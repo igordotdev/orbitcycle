@@ -1,0 +1,161 @@
+{
+	"use_cases": [
+	  {
+		"name": "Beverage Cans",
+		"materials": {
+		  "Aluminum": 0.015
+		}
+	  },
+	  {
+		"name": "Smartphone Casings",
+		"materials": {
+		  "Aluminum": 0.05,
+		  "Glass": 0.02,
+		  "Ceramics": 0.005
+		}
+	  },
+	  {
+		"name": "Jewelry",
+		"materials": {
+		  "Gold": 0.05,
+		  "Silver": 0.03
+		}
+	  },
+	  {
+		"name": "Bulletproof Vests",
+		"materials": {
+		  "Kevlar": 3.0,
+		  "Composite Materials": 1.0
+		}
+	  },
+	  {
+		"name": "Automobiles",
+		"materials": {
+		  "Steel": 500.0,
+		  "Aluminum": 150.0,
+		  "Nickel": 20.0
+		}
+	  },
+	  {
+		"name": "Non-Stick Cookware",
+		"materials": {
+		  "Teflon": 0.001,
+		  "Aluminum": 0.05
+		}
+	  },
+	  {
+		"name": "Wind Turbine Blades",
+		"materials": {
+		  "Glass": 100.0,
+		  "Composite Materials": 500.0,
+		  "Aluminum": 50.0
+		}
+	  },
+	  {
+		"name": "Medical Implants",
+		"materials": {
+		  "Titanium": 0.1,
+		  "Ceramics": 0.05,
+		  "Carbon-Fiber": 0.02
+		}
+	  },
+	  {
+		"name": "Windows and Mirrors",
+		"materials": {
+		  "Glass": 5.0,
+		  "Aluminum": 1.0
+		}
+	  },
+	  {
+		"name": "Bicycles",
+		"materials": {
+		  "Carbon-Fiber": 2.0,
+		  "Aluminum": 1.0,
+		  "Steel": 0.5
+		}
+	  },
+	  {
+		"name": "Electronic Circuit Boards",
+		"materials": {
+		  "Composite Materials": 0.01,
+		  "Silver": 0.001,
+		  "Gold": 0.0001
+		}
+	  },
+	  {
+		"name": "Aircraft Structural Components",
+		"materials": {
+		  "Titanium": 100.0,
+		  "Aluminum": 300.0,
+		  "Composite Materials": 200.0
+		}
+	  },
+	  {
+		"name": "Engine Parts",
+		"materials": {
+		  "Ceramics": 50.0,
+		  "Nickel": 20.0,
+		  "Titanium": 10.0
+		}
+	  },
+	  {
+		"name": "Protective Helmets",
+		"materials": {
+		  "Kevlar": 2.0,
+		  "Carbon-Fiber": 1.0,
+		  "Composite Materials": 1.0
+		}
+	  },
+	  {
+		"name": "Batteries",
+		"materials": {
+		  "Nickel": 10.0,
+		  "Steel": 5.0,
+		  "Aluminum": 2.0
+		}
+	  },
+	  {
+		"name": "Flexible Electronics",
+		"materials": {
+		  "Teflon": 0.002,
+		  "Silver": 0.001,
+		  "Carbon-Fiber": 0.005
+		}
+	  },
+	  {
+		"name": "Building Insulation",
+		"materials": {
+		  "Insulation": 10.0,
+		  "Steel": 5.0
+		}
+	  },
+	  {
+		"name": "Cutting Tools",
+		"materials": {
+		  "Ceramics": 0.5,
+		  "Steel": 0.2
+		}
+	  },
+	  {
+		"name": "Conductive Inks",
+		"materials": {
+		  "Silver": 0.002,
+		  "Teflon": 0.001
+		}
+	  },
+	  {
+		"name": "Sporting Goods",
+		"materials": {
+		  "Carbon-Fiber": 1.5,
+		  "Composite Materials": 0.5
+		}
+	  },
+	  {
+		"name": "Stainless Steel Appliances",
+		"materials": {
+		  "Steel": 20.0,
+		  "Nickel": 5.0
+		}
+	  }
+	]
+  }
