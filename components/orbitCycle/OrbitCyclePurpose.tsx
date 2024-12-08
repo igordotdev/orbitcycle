@@ -14,7 +14,7 @@ export function OrbitCyclePurpose() {
     {
       title: "Why choose OrbitCycle?",
       content:
-        "OrbitCycle transforms scattered space debris into precise profit maps, showing you exactly where your next big profit lies. With advaced analytics and intuitive visualizations, it identifies the most valuable salvage areas instantly.",
+        "OrbitCycle transforms scattered space debris into precise profit maps, showing you exactly where your next big profit lies. With advanced analytics and intuitive visualizations, it identifies the most valuable salvage areas instantly.",
     },
   ];
 
