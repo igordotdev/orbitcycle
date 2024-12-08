@@ -1,36 +1,156 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OrbitCycle
 
-## Getting Started
+# PL
+### ENG version below
+## Project Overview
 
-First, run the development server:
+OrbitCycle to projekt, który wizualizuje zanieczyszczenia w przestrzeni kosmicznej za pomocą Unity WebGL. Zawiera Flask API do pobierania danych większości materiałow, które kosmiczne śmieci zawierają oraz frontend Next.js do interakcji użytkownika.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **api/**: Zawiera API Flaska do obsługi danych o materiałach.
+- **web_unity/**: Zawiera skompilowaną wersję Unity (do WebGL) oraz dane wizualizacji.
+- **api/datasets/**: Zawiera pliki typu JSON z danymi różnych materiałów.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Running the Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Start the Flask API**:
+	```bash
+	cd api
+	python get_material.py
+	```
+2. **Start Unity Server:**
+    Zainstalij dodatek do VS Code lub VS Code Insiders o nazwie ```Live Server```, potem w dole okna kliknij ```Go Live```
 
-## Learn More
+3. **Run the Next.js frontend**:
+	```bash
+	npm run dev
+	```
+4. Otwórz [http://localhost:3000](http://localhost:3000) używając twojej przeglądarki.
 
-To learn more about Next.js, take a look at the following resources:
+## API Endpoints
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **GET /api/get_material/<material>**: Pobiera dane z serwera o danym materiale.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Used technologies
 
-## Deploy on Vercel
+### Frontend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="center">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="Next.js" style="height: 50px;"/>
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Next.js**: Użyty do zaprogramowania frontend-u naszej strony
+
+### Backend
+
+<p align="center">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" style="height: 100px;"/>
+</p>
+
+**Python**: Użyty do zaprogramowania backedn-u strony.
+
+### API
+
+<p align="center">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" alt="Flask" style="height: 90px;"/>
+</p>
+
+**Flask**: Użyty do obsługi API strony i backend-u.
+
+Wypróbuj kalkulator, używając przykładowych materiałów:
+- Aluminum
+- Steel
+- Copper
+- Aliminum Alloy
+- Gold
+- Silver
+- Nickel
+- Titanium
+- Compisites
+
+### Visualization
+
+<p align="center">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Unity_Technologies_logo.svg" alt="Unity" style="height: 80px;"/>
+</p>
+
+**Unity WebGL**: Użyty do wizualizacji różnych orbit Ziemi.
+
+
+# EN
+# OrbitCycle
+## Project Overview
+
+OrbitCycle is a project that visualizes debris in space using Unity WebGL. It includes a Flask API to fetch material data and a Next.js frontend for user interaction.
+
+## Project Structure
+
+- **api/**: Contains the Flask API to fetch material data.
+- **web_unity/**: Contains the Unity WebGL build and related assets.
+- **api/datasets/**: Contains JSON and text files with material data.
+
+## Running the Project
+
+1. **Start the Flask API**:
+	```bash
+	cd api
+	python get_material.py
+	```
+2. **Start Unity Server:**
+    Install add-on to VS Code or Vs Code Insiders called ```Live Server```, then click ```Go live```.
+
+3. **Run the Next.js frontend**:
+	```bash
+	npm run dev
+	```
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## API Endpoints
+
+- **GET /api/get_material/<material>**: Fetches data for a specific material.
+
+## Used technologies
+
+### Frontend
+
+<p align="center">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="Next.js" style="height: 50px;"/>
+</p>
+
+**Next.js**: Used to program the frontend of our site.
+
+### Backend
+
+<p align="center">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" style="height: 100px;"/>
+</p>
+
+**Python**: Used to program backend for this site.
+
+### API
+
+<p align="center">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" alt="Flask" style="height: 90px;"/>
+</p>
+
+**Flask**: Used to handle API calls to backend.
+
+Try calculator with materials:
+- Aluminum
+- Steel
+- Copper
+- Aliminum Alloy
+- Gold
+- Silver
+- Nickel
+- Titanium
+- Compisites
+
+### Visualization
+
+<p align="center">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Unity_Technologies_logo.svg" alt="Unity" style="height: 80px;"/>
+</p>
+
+**Unity WebGL**: Used to visualize data presented to the user by API.
