@@ -84,6 +84,12 @@ Wypróbuj kalkulator, używając przykładowych materiałów:
 
 **Unity WebGL**: Użyty do wizualizacji różnych orbit Ziemi.
 
+## Zasoby
+
+[Statystyki ESA](https://sdup.esoc.esa.int/discosweb/statistics/)
+[Mapa wszystkich satelitów na orbicie](http://astria.tacc.utexas.edu/AstriaGraph/)
+[Opłacalność gospodarki o obiegu zamkniętym dla śmieci kosmicznych](https://www.sciencedirect.com/science/article/pii/S0956053X22005104)
+
 
 # EN
 # OrbitCycle
@@ -170,3 +176,9 @@ Try calculator with materials:
 </p>
 
 **Unity WebGL**: Used to visualize data presented to the user by API calls.
+
+## Resources
+
+[ESA Statistics](https://sdup.esoc.esa.int/discosweb/statistics/)
+[Map of all satellites on orbit](http://astria.tacc.utexas.edu/AstriaGraph/)
+[Viability of a circular economy for space debris](https://www.sciencedirect.com/science/article/pii/S0956053X22005104)
