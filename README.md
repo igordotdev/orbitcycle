@@ -25,7 +25,7 @@ OrbitCycle to projekt, który wizualizuje zanieczyszczenia w przestrzeni kosmicz
 	python get_material.py
 	```
 2. **Uruchom Unity Server**
-        Zainstalij dodatek do VS Code lub VS Code Insiders o nazwie ```Live Server```, potem w prawym dolnym rogu okna kliknij ```Go Live```
+        Uruchom VS Code i zainstaluj dodatek do VS Code lub VS Code Insiders o nazwie ```Live Server```, potem w prawym dolnym rogu okna kliknij ```Go Live```
 
 3. **W nowym terminalu uruchom frontend Next.js**:
 	```bash
@@ -112,15 +112,15 @@ OrbitCycle is a project that visualizes debris in space using Unity WebGL. It in
 	```
 2. **Start Unity Server:**
 
-3. Install add-on to VS Code or Vs Code Insiders called ```Live Server```, then in the bottom right click ```Go live```.
+3. Launch VS Code and install add-on to VS Code or Vs Code Insiders called ```Live Server```, then in the bottom right click ```Go live```.
 
-3. **Run the Next.js frontend**:
+4. **Run the Next.js frontend**:
 	```bash
  	npm install
 	npm run dev
 	```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## API Endpoints
 
