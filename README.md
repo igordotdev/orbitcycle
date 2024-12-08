@@ -2,42 +2,43 @@
 
 # PL
 ### ENG version below
-## Project Overview
+## Przedstawienie projektu
 
 OrbitCycle to projekt, który wizualizuje zanieczyszczenia w przestrzeni kosmicznej za pomocą Unity WebGL. Zawiera Flask API do pobierania danych większości materiałow, które kosmiczne śmieci zawierają oraz frontend Next.js do interakcji użytkownika.
 
-## Project Structure
+## Struktura projektu
 
 - **api/**: Zawiera API Flaska do obsługi danych o materiałach.
 - **web_unity/**: Zawiera skompilowaną wersję Unity (do WebGL) oraz dane wizualizacji.
 - **api/datasets/**: Zawiera pliki typu JSON z danymi różnych materiałów.
 
-## Running the Project
-
-1. **Clone git repo**:
+## Uruchamianie projektu
+1. **Zrób klon repozytorium**:
 	```bash
-	git clone https://github.com/igordotdev/orbitcycle.git
+	git clone https://github.com/igordotdev/orbitcycle.git orbitcycle
+	cd orbitcycle
 	```
 
-1. **Start the Flask API**:
+1. **Uruchom Flask API**:
 	```bash
 	cd api
 	python get_material.py
 	```
-2. **Start Unity Server:**
-    Zainstalij dodatek do VS Code lub VS Code Insiders o nazwie ```Live Server```, potem w dole okna kliknij ```Go Live```
+2. **Uruchom Unity Server:**
+        Zainstalij dodatek do VS Code lub VS Code Insiders o nazwie ```Live Server```, potem w prawym dolnym rogu okna kliknij ```Go Live```
 
-3. **Run the Next.js frontend**:
+3. **W nowym terminalu uruchom Next.js frontend**:
 	```bash
 	npm run dev
 	```
+
 4. Otwórz [http://localhost:3000](http://localhost:3000) używając twojej przeglądarki.
 
-## API Endpoints
+## Wyjścia API
 
 - **GET /api/get_material/<material>**: Pobiera dane z serwera o danym materiale.
 
-## Used technologies
+## Użyte technologie
 
 ### Frontend
 
@@ -74,7 +75,7 @@ Wypróbuj kalkulator, używając przykładowych materiałów:
 - Titanium
 - Compisites
 
-### Visualization
+### Wizualizacja
 
 <p align="center">
 	<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Unity_Technologies_logo.svg" alt="Unity" style="height: 80px;"/>
@@ -97,9 +98,10 @@ OrbitCycle is a project that visualizes debris in space using Unity WebGL. It in
 
 ## Running the Project
 
-1. **Zrób klon repozytorium**:
+1. **Clone git repo**:
 	```bash
 	git clone https://github.com/igordotdev/orbitcycle.git
+	cd orbitcycle
 	```
 
 1. **Start the Flask API**:
@@ -108,12 +110,14 @@ OrbitCycle is a project that visualizes debris in space using Unity WebGL. It in
 	python get_material.py
 	```
 2. **Start Unity Server:**
-    Install add-on to VS Code or Vs Code Insiders called ```Live Server```, then click ```Go live```.
+
+3. Install add-on to VS Code or Vs Code Insiders called ```Live Server```, then in the bottom right click ```Go live```.
 
 3. **Run the Next.js frontend**:
 	```bash
 	npm run dev
 	```
+
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## API Endpoints
@@ -163,4 +167,4 @@ Try calculator with materials:
 	<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Unity_Technologies_logo.svg" alt="Unity" style="height: 80px;"/>
 </p>
 
-**Unity WebGL**: Used to visualize data presented to the user by API.
+**Unity WebGL**: Used to visualize data presented to the user by API calls.
