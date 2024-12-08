@@ -29,6 +29,7 @@ OrbitCycle to projekt, który wizualizuje zanieczyszczenia w przestrzeni kosmicz
 
 3. **W nowym terminalu uruchom Next.js frontend**:
 	```bash
+ 	npm insta
 	npm run dev
 	```
 
@@ -54,7 +55,7 @@ OrbitCycle to projekt, który wizualizuje zanieczyszczenia w przestrzeni kosmicz
 	<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" style="height: 100px;"/>
 </p>
 
-**Python**: Użyty do zaprogramowania backedn-u strony.
+**Python**: Użyty do zaprogramowania backend-u strony.
 
 ### API
 
@@ -68,12 +69,12 @@ Wypróbuj kalkulator, używając przykładowych materiałów:
 - Aluminum
 - Steel
 - Copper
-- Aliminum Alloy
+- Aluminum Alloy
 - Gold
 - Silver
 - Nickel
 - Titanium
-- Compisites
+- Composites
 
 ### Wizualizacja
 
@@ -115,6 +116,7 @@ OrbitCycle is a project that visualizes debris in space using Unity WebGL. It in
 
 3. **Run the Next.js frontend**:
 	```bash
+ 	npm install
 	npm run dev
 	```
 
@@ -154,12 +156,12 @@ Try calculator with materials:
 - Aluminum
 - Steel
 - Copper
-- Aliminum Alloy
+- Aluminum Alloy
 - Gold
 - Silver
 - Nickel
 - Titanium
-- Compisites
+- Composites
 
 ### Visualization
 
