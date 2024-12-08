@@ -13,7 +13,7 @@ OrbitCycle to projekt, który wizualizuje zanieczyszczenia w przestrzeni kosmicz
 - **api/datasets/**: Zawiera pliki typu JSON z danymi różnych materiałów.
 
 ## Uruchamianie projektu
-1. **Zrób klon repozytorium**:
+1. **Sklonuj repozytorium**:
 	```bash
 	git clone https://github.com/igordotdev/orbitcycle.git orbitcycle
 	cd orbitcycle
@@ -24,12 +24,12 @@ OrbitCycle to projekt, który wizualizuje zanieczyszczenia w przestrzeni kosmicz
 	cd api
 	python get_material.py
 	```
-2. **Uruchom Unity Server:**
+2. **Uruchom Unity Server**
         Zainstalij dodatek do VS Code lub VS Code Insiders o nazwie ```Live Server```, potem w prawym dolnym rogu okna kliknij ```Go Live```
 
-3. **W nowym terminalu uruchom Next.js frontend**:
+3. **W nowym terminalu uruchom frontend Next.js**:
 	```bash
- 	npm insta
+ 	npm install
 	npm run dev
 	```
 
