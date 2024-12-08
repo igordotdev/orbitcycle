@@ -87,7 +87,7 @@
       "orbits": ["LEO", "MEO", "GEO"]
     },
     {
-      "name": "Titanium Alloy",
+      "name": "Titanium",
       "total_mass": 732.69,
       "percentage_of_total_mass": 10.5,
       "price": 30.0,
