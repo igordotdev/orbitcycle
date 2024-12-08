@@ -7,7 +7,7 @@ interface StatisticCardProps {
 
 export const StatisticCard: React.FC<StatisticCardProps> = ({ value, description }) => {
   const [count, setCount] = useState<number>(0);
-  const target = parseInt(value.replace(/[^0-9]/g, ""), 10);
+  const target = parseFloat(value.replace(/[^0-9.]/g, ""));
   const ref = useRef<HTMLDivElement>(null);
   const [hasStarted, setHasStarted] = useState<boolean>(false);
 
@@ -31,17 +31,20 @@ export const StatisticCard: React.FC<StatisticCardProps> = ({ value, description
       observer.disconnect();
     };
   }, [hasStarted, target]);
+
   const startCounting = () => {
-    let start = 0;
     const duration = 4000;
-    const stepSize = Math.floor(target / (duration/10));
-    const incrementTime = Math.floor(duration / target);
+    const incrementTime = 15;
+    const totalSteps = duration / incrementTime;
+    const stepSize = (target / totalSteps) * 3;
+    let currentCount = 0;
     const timer = setInterval(() => {
-      start += stepSize;
-      setCount(start);
-      if (start >= target) {
+      currentCount += stepSize;
+      if (currentCount >= target) {
         setCount(target);
         clearInterval(timer);
+      } else {
+        setCount(parseFloat(currentCount.toFixed(2)));
       }
     }, incrementTime);
   };

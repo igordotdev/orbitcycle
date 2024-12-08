@@ -1,7 +1,7 @@
 export interface SearchResultProps {
   name: string;
-  amount: string;
-  totalPrice: string;
-  usageInfo: string;
-  location: string;
+  total_mass: number;
+  price: number;
+  usageInfo: string[];
+  orbits: string[];
 }

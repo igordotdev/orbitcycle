@@ -15,8 +15,8 @@ export const SpaceDebrisStats: React.FC = () => {
       description: "Kilograms of debris on earth's orbit",
     },
     {
-      value: "3000+",
-      description: "Non-functioning satellites on orbit",
+      value: "1.2+",
+      description: "Trillion dollars worth of debris",
     },
   ];
 

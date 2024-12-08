@@ -1,4 +1,6 @@
 import { OrbitHero } from "@/components/heroSection/OrbitHero";
+import { OrbitCyclePurpose } from "@/components/orbitCycle/OrbitCyclePurpose";
+import { SearchPage } from "@/components/search/SearchPage";
 import { SpaceDebrisStats } from "@/components/spaceDebris/SpaceDebrisStats";
 
 export default function Home() {
@@ -11,10 +13,10 @@ export default function Home() {
         <SpaceDebrisStats />
       </section>
       <section id="calculator">
-        
+        <SearchPage />
       </section>
       <section id="about-us">
-        {/* ...About Us content... */}
+        <OrbitCyclePurpose />
       </section>
     </div>
   );

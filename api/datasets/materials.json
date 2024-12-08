@@ -1,0 +1,115 @@
+{
+  "total_mass_unit": "kg",
+  "total_mass": 6978.00,
+  "materials": [
+    {
+      "name": "Aluminum",
+      "total_mass": 1465.38,
+      "percentage_of_total_mass": 21.0,
+      "price": 2.0,
+      "usageInfo": [
+        "Lightweight structural components",
+        "Satellite frames",
+        "Thermal shielding panels"
+      ],
+      "orbits": ["LEO", "MEO", "GEO"]
+    },
+    {
+      "name": "Steel",
+      "total_mass": 244.23,
+      "percentage_of_total_mass": 3.5,
+      "price": 1.0,
+      "usageInfo": [
+        "Structural support beams",
+        "Fuel and oxidizer tanks",
+        "Launch vehicle components"
+      ],
+      "orbits": ["LEO", "MEO", "GEO"]
+    },
+    {
+      "name": "Copper",
+      "total_mass": 488.46,
+      "percentage_of_total_mass": 7.0,
+      "price": 9.0,
+      "usageInfo": [
+        "Electrical wiring",
+        "Heat dissipation components",
+        "Conductive elements in communication systems"
+      ],
+      "orbits": ["LEO", "MEO", "GEO"]
+    },
+    {
+      "name": "Aluminum Alloy",
+      "total_mass": 1221.15,
+      "percentage_of_total_mass": 17.5,
+      "price": 3.0,
+      "usageInfo": [
+        "High-strength structural frames",
+        "Pressure vessels",
+        "Landing gear components"
+      ],
+      "orbits": ["LEO", "MEO", "GEO"]
+    },
+    {
+      "name": "Gold",
+      "total_mass": 244.23,
+      "percentage_of_total_mass": 3.5,
+      "price": 70000.0,
+      "usageInfo": [
+        "Circuit board plating",
+        "Electrical connectors and contacts",
+        "Protective coatings against radiation"
+      ],
+      "orbits": ["LEO", "MEO", "GEO"]
+    },
+    {
+      "name": "Silver",
+      "total_mass": 244.23,
+      "percentage_of_total_mass": 3.5,
+      "price": 900.0,
+      "usageInfo": [
+        "High-conductivity electrical contacts",
+        "Thermal radiators",
+        "Precision soldering in electronics"
+      ],
+      "orbits": ["LEO", "MEO", "GEO"]
+    },
+    {
+      "name": "Nickel",
+      "total_mass": 244.23,
+      "percentage_of_total_mass": 3.5,
+      "price": 20.0,
+      "usageInfo": [
+        "Superalloys for turbine blades",
+        "Battery electrodes",
+        "High-temperature components"
+      ],
+      "orbits": ["LEO", "MEO", "GEO"]
+    },
+    {
+      "name": "Titanium Alloy",
+      "total_mass": 732.69,
+      "percentage_of_total_mass": 10.5,
+      "price": 30.0,
+      "usageInfo": [
+        "Lightweight high-strength structural parts",
+        "Propellant tanks",
+        "Aerospace fasteners and fittings"
+      ],
+      "orbits": ["LEO", "MEO", "GEO"]
+    },
+    {
+      "name": "Composites",
+      "total_mass": 2093.40,
+      "percentage_of_total_mass": 30.0,
+      "price": 5.0,
+      "usageInfo": [
+        "Thermal insulation blankets",
+        "Ablative heat shields",
+        "Lightweight structural panels",
+        "Solar panel substrates"
+      ],
+      "orbits": ["LEO", "MEO", "GEO"]
+    }
+  ]
+}

@@ -8,8 +8,8 @@ ROCKET = None
 SATELLITE = None
 SPACECRAFT = None
 HUMAN_GENERATED = None
-MATERAILS_NAME = None
-MATERAILS = None
+MATERIALS_NAME = None
+MATERIALS = None
 TYPICAL_USAGE = None
 PRICE = None
 
@@ -77,7 +77,7 @@ def find_material_usage(material: str):
 
 def fill_material_weight_data():
 	materials = {}
-	for material in MATERAILS_NAME:
+	for material in MATERIALS_NAME:
 		materials[material.lower()] = None
 		parts = {}
 		for use_case in ROCKET:
@@ -105,18 +105,18 @@ def fill_material_weight_data():
 
 @app.route('/materials', methods=['GET'])
 def get_materials():
-	return jsonify(MATERAILS_NAME)
+	return jsonify(MATERIALS_NAME)
 
 @app.route('/materials/<material>', methods=['GET'])
 def get_material(material):
-	# ret = {MATERAILS[material.lower()]: None}
-	return jsonify(MATERAILS[material.lower()])
+	# ret = {MATERIALS[material.lower()]: None}
+	return jsonify(MATERIALS[material.lower()])
 
 
 if __name__ == '__main__':
-	MATERAILS_NAME = load_materials()
-	print(Color.green(f"LEN: {len(MATERAILS_NAME)}"))
-	print(MATERAILS, end='\n\n')
+	MATERIALS_NAME = load_materials()
+	print(Color.green(f"LEN: {len(MATERIALS_NAME)}"))
+	print(MATERIALS, end='\n\n')
 
 	TYPICAL_USAGE = load_materials_json('typical_usage')['use_cases']
 	print(Color.green(f"TYPICAL USAGE LEN: {len(TYPICAL_USAGE)}"))
@@ -137,11 +137,11 @@ if __name__ == '__main__':
 	print(Color.yellow(f"HUMAN GENERATED LEN: {len(HUMAN_GENERATED)}"), end='\n\n')
 
 
-	MATERAILS = fill_material_weight_data()
-	for material in MATERAILS:
+	MATERIALS = fill_material_weight_data()
+	for material in MATERIALS:
 		print(Color.magenta(material))
-		for part in MATERAILS[material]:
-			print(Color.cyan(f"{part}: {MATERAILS[material][part]}"))
+		for part in MATERIALS[material]:
+			print(Color.cyan(f"{part}: {MATERIALS[material][part]}"))
 		print()
 
 	app.run(debug=False)
