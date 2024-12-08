@@ -49,6 +49,11 @@ export function OrbitCyclePurpose() {
         />
       </div>
       <div className="mt-2.5 text-4xl font-bold max-md:max-w-full">
+        Demo density map of space debris
+      </div>
+      <iframe src="http://127.0.0.1:5500/web_unity/" className="w-full h-[500px] mt-2.5" />
+      <div className="mt-3.5 max-md:max-w-full"> Red - highest profitability; Orange - High profitability; Yellow - Medium profitability; Grey - low profitability</div>
+      <div className="mt-2.5 text-4xl font-bold max-md:max-w-full">
         We are not the ones saying it - research speaks for itself.
       </div>
       <ArticleLinks links={articleLinks} />

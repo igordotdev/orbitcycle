@@ -24,10 +24,10 @@ export const SearchPage: React.FC = () => {
 
   const renderContent = () => {
     if (searchTerm.trim() === '') {
-      return <div className="h-"></div>;
+      return <div className="h-[60vh]"></div>;
     }
     if (!searchResults.name) {
-      return <div className="mt-5 text-white">No results found</div>;
+      return <div className="mt-5 h-[60vh] text-white">No results found</div>;
     }
     return (
       <SearchResult
@@ -41,7 +41,7 @@ export const SearchPage: React.FC = () => {
   };
 
   return (
-    <div className="flex overflow-hidden flex-col items-center px-2.5 py-3 text-white">
+    <div className="flex overflow-hidden mt-20 flex-col items-center px-2.5 py-3 text-white">
       <div className="text-sm font-semibold leading-[51px] max-md:max-w-full">
         <span className="text-4xl">
           Search for manufacturing materials or products.
