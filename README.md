@@ -14,6 +14,11 @@ OrbitCycle to projekt, który wizualizuje zanieczyszczenia w przestrzeni kosmicz
 
 ## Running the Project
 
+1. **Clone git repo**:
+	```bash
+	git clone https://github.com/igordotdev/orbitcycle.git
+	```
+
 1. **Start the Flask API**:
 	```bash
 	cd api
@@ -91,6 +96,11 @@ OrbitCycle is a project that visualizes debris in space using Unity WebGL. It in
 - **api/datasets/**: Contains JSON and text files with material data.
 
 ## Running the Project
+
+1. **Zrób klon repozytorium**:
+	```bash
+	git clone https://github.com/igordotdev/orbitcycle.git
+	```
 
 1. **Start the Flask API**:
 	```bash
